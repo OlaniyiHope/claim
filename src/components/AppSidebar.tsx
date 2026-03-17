@@ -76,7 +76,7 @@ import {
 } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import { useLocation, Link } from "react-router-dom";
-import logo from "@/assets/logo_pathology.png";
+import logo from "@/assets/logo.png";
 import {
   Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent,
   SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem,
@@ -123,9 +123,9 @@ export function AppSidebar() {
             src={logo}
             alt="Target Pathology Laboratory"
             className="h-10 w-10 rounded object-contain bg-white p-0.5"
-            style={{ border: "1px solid #e5e7eb" }}
+            style={{ border: "1px solid #e5e7eb",width: "100%", height: "auto" }}
           />
-          {!collapsed && (
+          {/* {!collapsed && (
             <div className="flex flex-col">
               <span style={{ fontSize: "0.875rem", fontWeight: 700, color: "#111827", lineHeight: 1.3 }}>
                 Target Pathology
@@ -134,7 +134,7 @@ export function AppSidebar() {
                 Accounting Module
               </span>
             </div>
-          )}
+          )} */}
         </div>
       </SidebarHeader>
 
