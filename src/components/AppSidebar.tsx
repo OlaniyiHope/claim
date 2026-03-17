@@ -116,8 +116,9 @@ export function AppSidebar() {
     >
       {/* Header */}
       <SidebarHeader
-        style={{ padding: "1rem", borderBottom: "1px solid #e5e7eb" }}
-      >
+  style={{ padding: "1rem", borderBottom: "1px solid #e5e7eb", background: "#ffffff" }}
+>
+
         <div className="flex items-center gap-3">
           <img
             src={logo}
